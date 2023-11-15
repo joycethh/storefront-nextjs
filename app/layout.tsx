@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({subsets:['latin']})
 
 export const metadata = {
-  title: "Shell Splendor",
+  title: "Bling Bling Bijoux",
   description: 'Created by Joyce Tang'
 }
 
