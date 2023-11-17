@@ -8,7 +8,7 @@ const Page = () =>{
     return (
         <section className="h-full">
             {/* top-section */}
-            <div className="flex items-center shadow-md overflow-hidden ">
+            <div className="flex items-center shadow-md overflow-hidden">
             {/* left */}
             <div className="items-center">
                 <span>Timeless Rings</span>
