@@ -1,15 +1,15 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import { ReactNode } from "react";
+import {PropsWithChildren} from "react";
 
-const Layout = ({children,}: {children: ReactNode}) => {
-return(
-    <>
-    <Header />
-    <main>{children}</main>
-    <Footer />
-    </>
-)
+const Layout = ({children,}: PropsWithChildren<any>) => {
+return (
+        <>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+        </>
+    )
 }
 
 export default Layout;
