@@ -17,13 +17,16 @@ const Footer = () => {
                 
                 <div className="py-5 text-voilet-900">
                 
-                {/* <a
+                <a
                  className="text-sky-500" 
                  href="https://joycetang.me"  
                  rel='noreferrer'
                  target='_blank'>
-                    <span>Thecnology Stack</span>
-                </a> */}
+                <span>Technology Stack:
+                <p>
+                Next.js app with a&nbsp;<a href="<https://snipcart.com>" />Snipcart </p> 
+                </span>
+                </a> 
                 </div>
             </div>
         </footer>
