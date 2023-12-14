@@ -21,7 +21,7 @@ const Product = (props: IProductProps) => {
             <p>{props.product.description}</p>
             {/* image */}
             <div>
-                <Image src={props.product.image} alt={props.product.name} />
+                <Image src={props.product.image} alt={props.product.name} className="w-16 md:w-32 lg:w-48"  />
             </div>
             {/* price */}
             <div>
