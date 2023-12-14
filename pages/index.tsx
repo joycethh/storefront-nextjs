@@ -4,6 +4,8 @@ import Link from "next/link";
 import round from "../public/images/round-pale.jpg"
 import pear from "../public/images/pear.jpg"
 import oval from "../public/images/oval.jpg"
+import ProductList from "@/components/products/ProductList";
+import { productsData } from "@/components/products/productsData";
 
 //using the Pages router; this will be the Homepage
 const Page = () => {
@@ -40,6 +42,10 @@ const Page = () => {
         </div>
         </div>
         </div>
+
+        {/* all products */}
+        <ProductList products={productsData} />
+
     </section>
     )
 }
