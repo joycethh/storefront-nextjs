@@ -1,9 +1,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import round from "../public/images/round-pale.jpg"
-import pear from "../public/images/pear.jpg"
-import oval from "../public/images/oval.jpg"
+import round from "../public/images/nav-round-white-014.jpg"
+import pear from "../public/images/nav-pear-white-double-003.jpg"
+import oval from "../public/images/nav-oval-gold-002.jpg"
 import ProductList from "@/components/products/ProductList";
 import { productsData } from "@/components/products/productsData";
 
